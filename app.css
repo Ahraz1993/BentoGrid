@@ -64,26 +64,26 @@ body{
     
 }
 
-#stars{
+.stars{
   max-width: 50%;
   height: auto;
   margin-top:1rem;
  background-color:  hsl(256, 67%, 59%);
 }
-#reviewDesc{
+.reviewDesc{
   font-size: 1.2rem;  
   margin-bottom: 2rem;
 }
-#socialMedia{
+.socialMedia{
     margin-top: 3rem;
 }
-#tenX{
+.tenX{
     color: hsl(39, 100%, 71%);
 }
-#faster{
+.faster2{
     font-style: italic;
 }
-#media{
+.media{
     max-width:80%;
     height:auto;
     margin-top: 2rem;
@@ -126,13 +126,13 @@ body{
 
 
 }
-#scheduleMediaTitle{
+.scheduleMediaTitle{
     font-size: 1.6rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-weight: 500;
 }
-#scheduleMediadesc{
+.scheduleMediadesc{
     font-size: 1.2rem;
     margin-top:1rem;
     /* margin-left: 2rem;
@@ -175,7 +175,7 @@ body{
 } 
     
 
-#percentage{
+.percentage{
     padding: 0.8rem;
     font-size: 2.5rem;
     margin-top: 0.5rem;
@@ -183,7 +183,7 @@ body{
     font-weight: 500;
    
 }
-#fasterContent{
+.fasterContent{
     margin-left:1.3rem;
     font-size: 1.3rem;
 
@@ -225,8 +225,8 @@ body{
     margin-top: 1.2rem;
     margin-bottom: 1.4rem;
 }
-#quicker{
-    font-style: italic;
+.quicker{
+    font-style:italic;
     color:hsl(256, 67%, 59%);
 }
 .containerWideScreen{
@@ -287,11 +287,12 @@ body{
     .social p{
         font-size: 3rem;
     }
-    #stars{
+    .stars{
         max-width: 30%;
     }
     #reviewDesc{
-        font-weight: 50;
+        font-size: 1rem;
+        font-weight: lighter;
     }
        
     
@@ -389,7 +390,7 @@ body{
         overflow: hidden;
     }
     
-    #media{
+    .media{
         max-width: 120%;
         margin-left: 6rem;
         margin-top: 0.8rem;
@@ -458,7 +459,7 @@ body{
        max-width: 150%;
        margin-left: 11rem;
     }
-    #scheduleMediaTitle{
+    .scheduleMediaTitle{
         
         margin-left:-1rem;
         max-width: 70%;
@@ -467,7 +468,7 @@ body{
        
         line-height: 2rem;
     }
-    #scheduleMediadesc{
+    .scheduleMediadesc{
         margin-left:-1rem;
         font-size: 1.1rem;
         line-height: 1.5rem;
@@ -477,13 +478,13 @@ body{
         margin-top: 1rem;
         max-width:80%;
     }
-    #percentage{
+    .percentage{
         font-size: 3.5rem;
         
         margin-left: 1rem;
         font-weight: 609;
     }
-    #fasterContent{
+    .fasterContent{
         font-size: 1.2rem;
     }
 
